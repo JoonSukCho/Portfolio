@@ -10557,3 +10557,23 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+/* css 추가 */
+.card-container {
+  display: flex;
+  border-radius: 5px;
+  padding: 0.4rem;
+  background-color: #fafafa;
+
+  -webkit-box-shadow: 10px 10px 12px -6px rgba(191, 208, 219, 1);
+  -moz-box-shadow: 10px 10px 12px -6px rgba(191, 208, 219, 1);
+  box-shadow: 10px 10px 12px -6px rgba(191, 208, 219, 1);
+}
+
+.photo {
+  display: flex;
+}
+
+.bio {
+  display: flex;
+}
