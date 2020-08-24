@@ -496,7 +496,7 @@ mark,
 
 .initialism {
   font-size: 90%;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .blockquote {
@@ -10439,7 +10439,7 @@ h3,
 h4,
 h5,
 h6 {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 h1 {
@@ -10455,7 +10455,7 @@ p.lead {
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: 500;
   font-size: 1.5rem;
 }
@@ -10463,7 +10463,7 @@ p.lead {
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 #sideNav .navbar-toggler:focus {
   outline-color: #d48a6e;
@@ -10479,6 +10479,10 @@ p.lead {
     flex-direction: column;
     width: 17rem;
     height: 100vh;
+
+    background-image: url("../assets/img/backgrounds.jpeg");
+    background-size: 100%;
+    opacity: 0.5 !important;
   }
   #sideNav .navbar-brand {
     display: flex;
@@ -10506,6 +10510,10 @@ p.lead {
   }
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
     display: block;
+  }
+
+  /* 추가 */
+  #sideNav:after {
   }
 }
 .social-icons .social-icon {
@@ -10564,6 +10572,7 @@ section.resume-section .resume-section-content {
   border-radius: 5px;
   padding: 0.4rem;
   background-color: #fafafa;
+  min-width: 450px;
 
   -webkit-box-shadow: 10px 10px 12px -6px rgba(191, 208, 219, 1);
   -moz-box-shadow: 10px 10px 12px -6px rgba(191, 208, 219, 1);
@@ -10576,4 +10585,32 @@ section.resume-section .resume-section-content {
 
 .bio {
   display: flex;
+  font-size: 1.5rem;
 }
+
+.question_icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  font-size: 1.2rem;
+  margin-right: 1.5rem;
+  background-color: #fff;
+  color: #495057;
+}
+
+.question_icon:hover {
+  background-color: #495057;
+  color: #fff;
+}
+
+.search_icon {
+  background-color: #fff;
+  color: #495057;
+}
+
+.text-bl {
+  color: #343a40 !important;
+}
+
+/* tooltip */
