@@ -30,17 +30,22 @@
 
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+
+    <!-- animation CSS -->
+    <link href="css/animate.css" rel="stylesheet" />
+    
   </head>
   <body id="page-top">
     <!-- Navigation-->
     <nav
-      class="navbar navbar-expand-lg navbar-dark  fixed-top"
+      class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark"
       id="sideNav"
     >
       <!-- Navigation profile img -->
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none">TOP</span>
-        <span class="d-none d-lg-block"
+        <span class="d-block d-lg-none">&nbsp;<i class="fas fa-arrow-up"></i></span>
+        <!-- <span class="d-none d-lg-block" -->
+        <span class="d-none "
           ><img
             class="img-fluid img-profile rounded mx-auto mb-2"
             src="assets/img/chojs.jpg"
@@ -87,16 +92,21 @@
       </div>
     </nav>
     <!-- Page Content-->
-    <div class="container-fluid p-0">
+    <div class="container-fluid p-0" id="main_page">
       <!-- about-->
-      <section class="resume-section" id="about">
+      <section class="resume-section" id="about" style="">
         <div class="resume-section-content">
-          <h3 class="mb-3">
-            웹개발자 <span class="text-info">조준석</span>
+          <h2 class="mb-5">ABOUT ME</h2>
+          <h3 class="mb-3 wow fadeInLeft"
+          data-wow-duration="1s"
+          >
+            웹개발자 <span class="text-custom">조준석</span>
             의 포트폴리오 입니다.
           </h3>
           <div class="subheading mb-3 pl-1">
-            <div class="card-container">
+            <div class="card-container wow fadeInLeft"
+              data-wow-duration="1.5s"
+            >
               <div class="photo">
                 <img
                   class=""
@@ -121,29 +131,10 @@
             <!-- <div class="subheading mb-3 pl-1" style="color: #343a40;"> -->
 
             <p class="lead mb-5 mt-3">
-              목표나, 뭐 하고싶은 말 여기 적기. 목표나, 뭐 하고싶은 말 여기
-              적기. 목표나, 뭐 하고싶은 말 여기 적기. 목표나, 뭐 하고싶은 말
-              여기 적기. 목표나, 뭐 하고싶은 말 여기 적기. 목표나, 뭐 하고싶은
-              말 여기 적기.
             </p>
           </div>
 
-          <!-- <p class="lead mb-5">
-            I am projectd in leveraging agile frameworks to provide a robust
-            synopsis for high level overviews. Iterative approaches to corporate
-            strategy foster collaborative thinking to further the overall value
-            proposition.
-          </p> -->
-          <!-- <div class="social-icons">
-            <a class="social-icon" href="#"
-              ><i class="fab fa-linkedin-in"></i
-            ></a>
-            <a class="social-icon" href="#"><i class="fab fa-github"></i></a>
-            <a class="social-icon" href="#"><i class="fab fa-twitter"></i></a>
-            <a class="social-icon" href="#"
-              ><i class="fab fa-facebook-f"></i
-            ></a>
-          </div> -->
+
         </div>
       </section>
       <hr class="m-0" />
@@ -160,7 +151,7 @@
           <ul class="list-inline dev-icons">
             <li class="list-inline-item">
               <img
-                class=""
+                class="wow fadeIn"
                 src="assets/img/html5_logo.png"
                 alt=""
                 style="width: 90px;"
@@ -171,7 +162,8 @@
             </li>
             <li class="list-inline-item">
               <img
-                class=""
+                class="wow fadeIn"
+                data-wow-delay="0.1s"
                 src="assets/img/css3_logo.gif"
                 alt=""
                 style="width: 90px;"
@@ -182,7 +174,8 @@
             </li>
             <li class="list-inline-item">
               <img
-                class=""
+                class="wow fadeIn"
+                data-wow-delay="0.2s"
                 src="assets/img/js_logo.png"
                 alt=""
                 style="width: 90px;"
@@ -193,7 +186,8 @@
             </li>
               <li class="list-inline-item">
                 <img
-                  class=""
+                  class="wow fadeIn"
+                  data-wow-delay="0.3s"
                   src="assets/img/jquery_logo.png"
                   alt=""
                   style="width: 90px;"
@@ -204,7 +198,8 @@
               </li>
               <li class="list-inline-item">
                 <img
-                  class=""
+                  class="wow fadeIn"
+                  data-wow-delay="0.4s"
                   src="assets/img/git_logo.png"
                   alt=""
                   style="width: 90px;"
@@ -224,7 +219,7 @@
           <ul class="list-inline dev-icons">
             <li class="list-inline-item">
               <img
-                class=""
+                class="wow fadeIn"
                 src="assets/img/bootstrap_logo.png"
                 alt=""
                 style="width: 90px;"
@@ -235,7 +230,8 @@
             </li>
               <li class="list-inline-item">
                 <img
-                  class=""
+                  class="wow fadeIn"
+                  data-wow-delay="0.1s"
                   src="assets/img/python_logo.png"
                   alt=""
                   style="width: 90px;"
@@ -246,7 +242,8 @@
               </li>
               <li class="list-inline-item">
                 <img
-                  class=""
+                  class="wow fadeIn"
+                  data-wow-delay="0.2s"
                   src="assets/img/plsql_logo.jpg"
                   alt=""
                   style="width: 90px;"
@@ -266,7 +263,7 @@
           <ul class="list-inline dev-icons">
             <li class="list-inline-item">
               <img
-                class=""
+                class="wow fadeIn"
                 src="assets/img/react_logo.png"
                 alt=""
                 style="width: 90px;"
@@ -312,13 +309,13 @@
               <div class="subheading mb-2">Fe: 70%, Be: 20%, DB: 10%</div>
               <p class="lead">
                 KAIST 교직원 및 학생이 사용하는 웹 서비스 입니다.
-                <a class="search_icon ml-2 text-info" href="#" id="project_1"
+                <a class="search_icon ml-2 text-custom" href="#" id="project_1"
               ><i class="fas fa-search"></i
             ></a>
               </p>
             </div>
             <div class="flex-shrink-0">
-              <span class="text-info">2020. 03. 01 - 2020. 09. 21</span>
+              <span class="text-custom">2020. 03. 01 - 2020. 09. 21</span>
             </div>
           </div>
           <div
@@ -332,7 +329,7 @@
               </p>
             </div>
             <div class="flex-shrink-0">
-              <span class="text-info">2019. 10. 01 - 2020. 02. 29</span>
+              <span class="text-custom">2019. 10. 01 - 2020. 02. 29</span>
             </div>
           </div>
          
@@ -394,63 +391,17 @@
       <section class="resume-section" id="contact">
         <div class="resume-section-content">
           <h2 class="mb-5">Contact</h2>
-          <ul class="fa-ul mb-0">
-            <li>
-              <span class="fa-li"
-                ><i class="fas fa-trophy text-warning"></i
-              ></span>
-              Google Analytics Certified Developer
-            </li>
-            <li>
-              <span class="fa-li"
-                ><i class="fas fa-trophy text-warning"></i
-              ></span>
-              Mobile Web Specialist - Google Certification
-            </li>
-            <li>
-              <span class="fa-li"
-                ><i class="fas fa-trophy text-warning"></i
-              ></span>
-              1
-              <sup>st</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition
-              2009
-            </li>
-            <li>
-              <span class="fa-li"
-                ><i class="fas fa-trophy text-warning"></i
-              ></span>
-              1
-              <sup>st</sup>
-              Place - University of Colorado Boulder - Adobe Creative Jam 2008
-              (UI Design Category)
-            </li>
-            <li>
-              <span class="fa-li"
-                ><i class="fas fa-trophy text-warning"></i
-              ></span>
-              2
-              <sup>nd</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition
-              2008
-            </li>
-            <li>
-              <span class="fa-li"
-                ><i class="fas fa-trophy text-warning"></i
-              ></span>
-              1
-              <sup>st</sup>
-              Place - James Buchanan High School - Hackathon 2006
-            </li>
-            <li>
-              <span class="fa-li"
-                ><i class="fas fa-trophy text-warning"></i
-              ></span>
-              3
-              <sup>rd</sup>
-              Place - James Buchanan High School - Hackathon 2005
-            </li>
-          </ul>
+                  
+          <div class="social-icons">
+            <a class="social-icon" href="#"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a class="social-icon" href="#"><i class="fab fa-github"></i></a>
+            <a class="social-icon" href="#"><i class="fab fa-twitter"></i></a>
+            <a class="social-icon" href="#"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+          </div>
         </div>
       </section>
     </div>
@@ -514,5 +465,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+    <!-- animate JS -->
+    <script src="js/wow.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>
