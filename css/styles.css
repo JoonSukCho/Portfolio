@@ -10517,9 +10517,10 @@ p.lead {
     top: 0;
     left: 0;
     position: absolute;
-    background-size: 100%;
-    opacity: 0.3 !important;
-    filter: alpha(opacity=30);
+    /* background-size: 100%; */
+    background-size: cover;
+    opacity: 0.2 !important;
+    filter: alpha(opacity=20);
     z-index: -1;
     content: "";
     width: 100%;
@@ -10615,6 +10616,7 @@ section.resume-section .resume-section-content {
 .question_icon:hover {
   background-color: #495057;
   color: #fff;
+  border-color: #fff;
 }
 
 .search_icon {
@@ -10632,6 +10634,7 @@ section.resume-section .resume-section-content {
 
 .text-custom {
   color: #17a1e1 !important;
+  opacity: 0.8;
 }
 
 /* tooltip */
