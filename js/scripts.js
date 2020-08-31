@@ -56,4 +56,9 @@
     e.preventDefault();
     $("#project_modal_1").modal("show");
   });
+
+  $("#project_2").on("click", function (e) {
+    e.preventDefault();
+    $("#project_modal_2").modal("show");
+  });
 })(jQuery); // End of use strict
