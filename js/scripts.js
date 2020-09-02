@@ -51,7 +51,7 @@
       e.preventDefault();
     });
 
-  // project modal
+  // project modal open
   $("#project_1").on("click", function (e) {
     e.preventDefault();
     $("#project_modal_1").modal("show");
@@ -62,3 +62,34 @@
     $("#project_modal_2").modal("show");
   });
 })(jQuery); // End of use strict
+
+/* typing script */
+var typingBool = false;
+var typingIdx = 0;
+var typingTxt = $(".typing-txt").text();
+
+typingTxt = typingTxt.split("");
+
+if (typingBool == false) {
+  typingBool = true;
+  var tyInt = setTimeout(function () {
+    setInterval(typing, 200);
+  }, 3600);
+}
+
+function typing() {
+  if (typingIdx < typingTxt.length) {
+    if (
+      typingTxt[typingIdx] === "조" ||
+      typingTxt[typingIdx] === "준" ||
+      typingTxt[typingIdx] === "석"
+    ) {
+      typingTxt[typingIdx] =
+        "<span class='text-custom'>" + typingTxt[typingIdx] + "</span>";
+    }
+    $(".typing").append(typingTxt[typingIdx]);
+    typingIdx++;
+  } else {
+    clearInterval(tyInt);
+  }
+}

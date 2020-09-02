@@ -10614,8 +10614,8 @@ section.resume-section .resume-section-content {
 }
 
 .question_icon:hover {
-  background-color: #495057;
-  color: #fff;
+  background-color: #fff;
+  color: #495057;
   border-color: #fff;
 }
 
@@ -10638,3 +10638,31 @@ section.resume-section .resume-section-content {
 }
 
 /* tooltip */
+
+.span-letter {
+  letter-spacing: 0.5px;
+}
+
+.typing {
+  display: inline-block;
+  animation-name: cursor;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+.typing-txt {
+  display: none;
+}
+
+@keyframes cursor {
+  0% {
+    border-right: 3px solid #fff;
+  }
+  50% {
+    border-right: 3px solid #343a40;
+  }
+  100% {
+    border-right: 3px solid #fff;
+  }
+}
+/* typing */

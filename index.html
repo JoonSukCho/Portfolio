@@ -97,12 +97,48 @@
       <section class="resume-section" id="about" style="">
         <div class="resume-section-content">
           <h2 class="mb-5">ABOUT ME</h2>
+
           <h3 class="mb-3 wow fadeInLeft"
           data-wow-duration="1s"
+          data-wow-delay="0.9s"
           >
-            웹개발자 <span class="text-custom">조준석</span>
-            의 포트폴리오 입니다.
+          새로운 것을 <span class="text-custom">개발</span>
+          하기를 좋아하고,
           </h3>
+
+          <h3 class="mb-3 wow fadeInLeft"
+          data-wow-duration="1s"
+          data-wow-delay="1.8s"
+          >
+          새로운 기술을 <span class="text-custom">공부</span>
+          하기를 좋아하고,
+          </h3>
+
+          <h3 class="mb-3 wow fadeInLeft"
+          data-wow-duration="1s"
+          data-wow-delay="2.7s"
+          >
+          <span class="text-custom">기본기</span>
+          를 중요하게 생각하는,
+          </h3>
+
+          <br>
+
+          <!-- <h3 class="mb-3 wow fadeInLeft"
+          data-wow-duration="1s"
+          data-wow-delay="3s"
+          >
+          개발자 <span class="text-custom">조준석</span>
+          의 포트폴리오 입니다.
+          </h3> -->
+
+          <p class="typing-txt">개발자 조준석의 웹 포트폴리오 입니다.</p>
+          <h3 class="mb-3 typing"></h3>
+
+          <!-- <p class="typing"></p> 
+          <p class="typing-txt"> 타이핑될 텍스트 입니다.</p> 
+          <p class="typing"></p>  -->
+  
 
           <!-- card -->
           <!-- <div class="subheading mb-3 pl-1">
@@ -138,7 +174,7 @@
       <section class="resume-section" id="skills">
         <div class="resume-section-content">
           <h2 class="mb-5">SKILLS</h2>
-          <div class="subheading mb-3">
+          <div class="subheading mb-3 span-letter">
             Intermediate Skills
             <!-- <a class="question_icon ml-2" href="#"
               ><i class="far fa-question-circle"></i
@@ -206,7 +242,7 @@
               </li>
           </ul>
 
-          <div class="subheading mb-3">
+          <div class="subheading mb-3 span-letter">
             Basic Skills
             <!-- <a class="question_icon ml-2" href="#"
               ><i class="far fa-question-circle"></i
@@ -274,7 +310,7 @@
               </li>
           </ul>
 
-          <div class="subheading mb-3">
+          <div class="subheading mb-3 span-letter">
             Interested Skills
             <span><a class="question_icon ml-2 skills_help" id="skills_help" href="#"
               ><i class="fas fa-question-circle"></i
@@ -322,20 +358,37 @@
         <div class="resume-section-content">
           <h2 class="mb-5">PROJECT</h2>
 
+          <div
+          class="d-flex flex-column flex-md-row justify-content-between mb-5"
+        >
+          <div class="flex-grow-1">
+            <h3 class="mb-0">웹 포트폴리오
+              <a class="search_icon ml-3 text-custom"  href="#" id="project_3"
+              ><i class="fas fa-search"></i
+            ></a>
+            </h3>
+            <div class="subheading mb-2 span-letter">TOY PROJECT</div>
+            <p class="lead">
+              현재 보고 계신 웹 포트폴리오 입니다.
+            </p>
+          </div>
+          <div class="flex-shrink-0">
+            <span class="text-custom">2020. 08. 20 - 현재</span>
+          </div>
+        </div>
 
           <div
             class="d-flex flex-column flex-md-row justify-content-between mb-5"
           >
             <div class="flex-grow-1">
-              <h3 class="mb-0">KAIST 장학 시스템
-                <a class="search_icon ml-3 text-custom"  href="#" id="project_1"
+              <h3 class="mb-0">카이스트 장학 시스템
+                <a class="search_icon ml-3 text-custom"  href="#" id="project_2"
                 ><i class="fas fa-search"></i
               ></a>
               </h3>
-              <div class="subheading mb-2">KAIST PROJECT</div>
+              <div class="subheading mb-2 span-letter">KAIST PROJECT</div>
               <p class="lead">
-                KAIST 교직원 및 학생이 사용하는 웹 서비스 입니다.
-
+                카이스트 교직원 및 학생이 사용하는 웹 서비스 입니다.
               </p>
             </div>
             <div class="flex-shrink-0">
@@ -348,14 +401,14 @@
             class="d-flex flex-column flex-md-row justify-content-between mb-5"
           >
             <div class="flex-grow-1">
-              <h3 class="mb-0">KAIST Stipend 서비스
-                <a class="search_icon ml-3 text-custom"  href="#" id="project_2"
+              <h3 class="mb-0">카이스트 <span class="span-letter">STIPEND</span> 서비스
+                <a class="search_icon ml-3 text-custom"  href="#" id="project_1"
                 ><i class="fas fa-search"></i
               ></a>
               </h3>
-              <div class="subheading mb-2">KAIST PROJECT</div>
+              <div class="subheading mb-2 span-letter">KAIST PROJECT</div>
               <p class="lead">
-                KAIST 교직원들이 사용하는 업무용 웹 서비스입니다.<br />
+                카이스트 교직원들이 사용하는 업무용 웹 서비스입니다.<br />
               </p>
             </div>
 
@@ -435,99 +488,49 @@
 
 
     <!-- project modal - Kaist 장학 사업 -->
-    <div class="modal fade" id="project_modal_1" tabindex="-1" role="dialog" aria-labelledby="project_modal_1" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal fade" id="project_modal_2" tabindex="-1" role="dialog" aria-labelledby="project_modal_2" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="project_modal_title_1">Kaist 장학사업</h5>
+            <h5 class="modal-title" id="project_modal_title_2">카이스트 장학 시스템</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <div class="modal-body">
-            <div class="subheading mb-1  text-bl">Contents</div>
+          <div class="modal-body" style="padding: 1rem 3rem;">
+            <div class="subheading mb-1 text-bl span-letter">CONTENTS</div>
             <ul class="fa-ul mb-0">
               <li>
                 <span class="fa-li"></span>
-                KAIST 교직원들의 장학 업무를 웹 서비스화 
+                카이스트 학생들에게 장학금을 지급하는 교직원들의 업무를 웹 서비스화 한 프로젝트 입니다. 
               </li>
             </ul>
-            <div class="subheading mb-1 mt-3 text-bl">Skill Stacks</div>
+            <div class="subheading mb-1 mt-3 text-bl span-letter">SKILL STACKS</div>
           <ul class="fa-ul mb-0">
             <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
+              <span class="fa-li"></span>
               HTML5, CSS3, Javascript, Bootstrap, Python, PL/SQL
             </li>
           </ul>
-          <div class="subheading mb-1 mt-3 text-bl">Role</div>
-          <ul class="fa-ul mb-0">
+          <div class="subheading mb-1 mt-3 text-bl span-letter">MY ROLE</div>
+          <ul class="fa-ul mb-0" style="margin-left: 4em;">
             <li>
               <span class="fa-li"><i class="fas fa-check"></i></span>
-              HTML5, CSS3, Javascript, Bootstrap을 이용한 UI/UX
+              HTML5, CSS3, Bootstrap을 이용한 UI/UX 구현
             </li>
             <li>
               <span class="fa-li"><i class="fas fa-check"></i></span>
-              Jquery를 이용하여 Ajax 통신 및 웹 페이지 동적 기능 구현
+              JavaScript, Jquery를 이용한 Ajax 통신 및 웹 페이지 동적 기능 구현 
             </li>
             <li>
               <span class="fa-li"><i class="fas fa-check"></i></span>
-              PL/SQL을 이용하여 비즈니스 로직 일부 작성
+              Python을 이용한 서버 로직 일부 구현
             </li>
-          </ul>
-        
-      
-
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- project modal - Kaist Stipend -->
-    <div class="modal fade" id="project_modal_2" tabindex="-1" role="dialog" aria-labelledby="project_modal_1" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="project_modal_title_2">Kaist Stipend 서비스</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <div class="subheading mb-1  text-bl">Contents</div>
-            <ul class="fa-ul mb-0">
-              <li>
-                <span class="fa-li"></span>
-                KAIST 학생들에게 Stipend 장학금을 지급하는 업무용 웹 서비스 개발
-              </li>
-            </ul>
-            <div class="subheading mb-1 mt-3 text-bl">Skill Stacks</div>
-          <ul class="fa-ul mb-0">
             <li>
               <span class="fa-li"><i class="fas fa-check"></i></span>
-              HTML5, CSS3, Javascript, Bootstrap, Python, PL/SQL
+              PL/SQL을 이용한 비즈니스 로직 프로시저 일부 작성
             </li>
           </ul>
-          <div class="subheading mb-1 mt-3 text-bl">Role</div>
-          <ul class="fa-ul mb-0">
-            <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              HTML5, CSS3, Javascript, Bootstrap을 이용한 UI/UX
-            </li>
-            <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              Jquery를 이용하여 Ajax 통신 및 웹 페이지 동적 기능 구현
-            </li>
-            <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              PL/SQL을 이용하여 비즈니스 로직 일부 작성
-            </li>
-          </ul>
-        
-      
-
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
