@@ -10517,7 +10517,6 @@ p.lead {
     top: 0;
     left: 0;
     position: absolute;
-    /* background-size: 100%; */
     background-size: cover;
     opacity: 0.2 !important;
     filter: alpha(opacity=20);
@@ -10528,6 +10527,7 @@ p.lead {
 
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-color: #17a1e1;
   }
 }
 .social-icons .social-icon {
