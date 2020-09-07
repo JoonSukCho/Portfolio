@@ -45,11 +45,12 @@
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
         <span class="d-block d-lg-none">&nbsp;<i class="fas fa-arrow-up"></i></span>
         <!-- <span class="d-none d-lg-block" -->
-        <span class="d-none "
+        <span class="d-none d-lg-block"
           ><img
             class="img-fluid img-profile rounded mx-auto mb-2"
             src="assets/img/chojs.jpg"
             alt=""
+            style="border: none;"
         /></span>
       </a>
       <button
@@ -80,11 +81,11 @@
             >
           </li>
 
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#interests"
               >INTERESTS</a
             >
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">CONTACT</a>
           </li>
@@ -101,31 +102,27 @@
           <h3 class="mb-3 wow fadeInLeft"
           data-wow-duration="1s"
           data-wow-delay="0.9s"
-          style="opacity: 0.9;"
           >
-          <span class="text-custom">기본기</span>
+          <span class="text-custom" style="font-size: 2.5rem">기본기</span>
           를 중요하게 생각하고,
           </h3>
 
           <h3 class="mb-3 wow fadeInLeft"
           data-wow-duration="1s"
           data-wow-delay="1.8s"
-          style="opacity: 0.9;"
           >
-          새로운 것을 <span class="text-custom">개발</span>
+          새로운 것을 <span class="text-custom" style="font-size: 2.5rem">개발</span>
           하기를 좋아하며,
           </h3>
 
-          <h3 class="mb-3 wow fadeInLeft"
+          <h3 class="mb-5 wow fadeInLeft"
           data-wow-duration="1s"
           data-wow-delay="2.7s"
-          style="opacity: 0.9;"
           >
-          새로운 기술을 <span class="text-custom">공부</span>
+          새로운 기술을 <span class="text-custom" style="font-size: 2.5rem">공부</span>
           하기를 좋아하는,
           </h3>
 
-          <br>
 
           <!-- <h3 class="mb-3 wow fadeInLeft"
           data-wow-duration="1s"
@@ -137,6 +134,10 @@
 
           <p class="typing-txt">개발자 조준석의 웹 포트폴리오 입니다.</p>
           <h3 class="mb-3 typing"></h3>
+
+          <h3>todo</h3>
+          <h3>프로젝트 부분 fadeInLeft</h3>
+          <h3>프로젝트 hover시 효과</h3>
 
           <!-- <p class="typing"></p> 
           <p class="typing-txt"> 타이핑될 텍스트 입니다.</p> 
@@ -366,13 +367,13 @@
         >
           <div class="flex-grow-1">
             <h3 class="mb-0">웹 포트폴리오
-              <a class="search_icon ml-3 text-custom"  href="#" id="project_3"
+              <!-- <a class="search_icon ml-3 text-custom"  href="#" id="project_3"
               ><i class="fas fa-search"></i
-            ></a>
+            ></a> -->
             </h3>
             <div class="subheading mb-2 span-letter">TOY PROJECT</div>
             <p class="lead">
-              현재 보고 계신 웹 포트폴리오 입니다.
+              
             </p>
           </div>
           <div class="flex-shrink-0">
@@ -383,18 +384,19 @@
           <div
             class="d-flex flex-column flex-md-row justify-content-between mb-5"
           >
-            <div class="flex-grow-1">
-              <h3 class="mb-0">카이스트 장학 시스템
-                <a class="search_icon ml-3 text-custom"  href="#" id="project_2"
+            <div class="flex-grow-1  wow fadeInLeft">
+              <h3 class="mb-0 hover-underline-animation" 
+              ><span id="project_2">카이스트 장학 시스템</span>
+                <!-- <a class="search_icon ml-3 text-custom"  href="#" id="project_2"
                 ><i class="fas fa-search"></i
-              ></a>
+              ></a> -->
               </h3>
               <div class="subheading mb-2 span-letter">KAIST PROJECT</div>
               <p class="lead">
-                카이스트 교직원 및 학생이 사용하는 웹 서비스 입니다.
+                <!-- 카이스트 학생들에게 장학금을 지급하는 업무용 웹 서비스 -->
               </p>
             </div>
-            <div class="flex-shrink-0">
+            <div class="flex-shrink-0 wow fadeInLeft">
               <span class="text-bl">2020. 03. 01 - 2020. 09. 21</span>
             </div>
           </div>
@@ -404,14 +406,14 @@
             class="d-flex flex-column flex-md-row justify-content-between mb-5"
           >
             <div class="flex-grow-1">
-              <h3 class="mb-0">카이스트 <span class="span-letter">STIPEND</span> 서비스
-                <a class="search_icon ml-3 text-custom"  href="#" id="project_1"
+              <h3 class="mb-0" ><span id="project_1">카이스트 <span class="span-letter">STIPEND</span> 서비스</span>
+                <!-- <a class="search_icon ml-3 text-custom"  href="#" id="project_1"
                 ><i class="fas fa-search"></i
-              ></a>
+              ></a> -->
               </h3>
               <div class="subheading mb-2 span-letter">KAIST PROJECT</div>
               <p class="lead">
-                카이스트 교직원들이 사용하는 업무용 웹 서비스입니다.<br />
+                <!-- 카이스트 연구원들에게 생활비를 지급하는 업무용 웹 서비스 -->
               </p>
             </div>
 
@@ -457,7 +459,7 @@
       <hr class="m-0" />
 
       <!-- Interests-->
-      <section class="resume-section" id="interests">
+      <!-- <section class="resume-section" id="interests">
         <div class="resume-section-content">
           <h2 class="mb-5">Interests</h2>
           <p>
@@ -474,7 +476,7 @@
           </p>
         </div>
       </section>
-      <hr class="m-0" />
+      <hr class="m-0" /> -->
       <!-- contact-->
       <section class="resume-section" id="contact">
         <div class="resume-section-content">
@@ -488,6 +490,8 @@
         </div>
       </section>
     </div>
+
+
 
 
     <!-- project modal - Kaist 장학 사업 -->
@@ -504,34 +508,38 @@
             <div class="subheading mb-1 text-bl span-letter">CONTENTS</div>
             <ul class="fa-ul mb-0">
               <li>
-                <span class="fa-li"></span>
-                카이스트 학생들에게 장학금을 지급하는 교직원들의 업무를 웹 서비스화 한 프로젝트 입니다. 
+                <span class="fa-li"><i class="fas fa-check text-custom"></i></span>
+                장학금 지급 조건에 맞는 학생들에게 실제 장학금을 지급하고 내역을 관리하는 업무용 웹 서비스
               </li>
             </ul>
             <div class="subheading mb-1 mt-3 text-bl span-letter">SKILL STACKS</div>
           <ul class="fa-ul mb-0">
             <li>
-              <span class="fa-li"></span>
-              HTML5, CSS3, Javascript, Bootstrap, Python, PL/SQL
+              <span class="fa-li"><i class="fas fa-check text-custom"></i></span>
+              HTML5, CSS3, Javascript, Jquery, Bootstrap, Python, PL/SQL, GIT
             </li>
           </ul>
           <div class="subheading mb-1 mt-3 text-bl span-letter">MY ROLE</div>
           <ul class="fa-ul mb-0" >
             <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              HTML5, CSS3, Bootstrap을 이용한 UI/UX 구현
+              <span class="fa-li"><i class="fas fa-check text-custom"></i></span>
+              HTML5, CSS3, Bootstrap을 이용한 <b class="emphasis-txt">UI/UX 구현</b>
             </li>
             <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              JavaScript, Jquery를 이용한 Ajax 통신 및 웹 페이지 동적 기능 구현 
+              <span class="fa-li"><i class="fas fa-check text-custom"></i></span>
+              JavaScript, Jquery를 이용한 <b class="emphasis-txt">Ajax 통신 및 웹 페이지 동적 기능 구현 </b>
             </li>
             <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              Python을 이용한 서버 로직 일부 구현
+              <span class="fa-li"><i class="fas fa-check text-custom"></i></span>
+              Python을 이용한 <b class="emphasis-txt">서버 로직 일부 구현</b>
             </li>
             <li>
-              <span class="fa-li"><i class="fas fa-check"></i></span>
-              PL/SQL을 이용한 비즈니스 로직 프로시저 일부 작성
+              <span class="fa-li"><i class="fas fa-check text-custom"></i></span>
+              PL/SQL을 이용한 <b class="emphasis-txt">비즈니스 로직 프로시저 일부 작성</b>
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-check text-custom"></i></span>
+              Git, GitLab을 이용한 <b class="emphasis-txt">협업 및 개발/운영 브랜치 관리</b>
             </li>
           </ul>
           </div>
@@ -542,6 +550,57 @@
       </div>
     </div>
 
+       <!-- project modal - Kaist 장학 사업 -->
+       <div class="modal fade" id="project_modal_1" tabindex="-1" role="dialog" aria-labelledby="project_modal_2" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="project_modal_title_1">카이스트 STIPEND 서비스</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body" >
+              <div class="subheading mb-1 text-bl span-letter">CONTENTS</div>
+              <ul class="fa-ul mb-0">
+                <li>
+                  <span class="fa-li"><i class="fas fa-check text-custom"></i></span>
+                  카이스트 연구원들의 생활비를 월 단위, 학기 단위로 지급하고 내역을 관리하는 업무용 웹 서비스
+                </li>
+              </ul>
+              <div class="subheading mb-1 mt-3 text-bl span-letter">SKILL STACKS</div>
+            <ul class="fa-ul mb-0">
+              <li>
+                <span class="fa-li"><i class="fas fa-check text-custom"></i></span>
+                HTML5, CSS3, Javascript, Jquery, Bootstrap, GIT
+              </li>
+            </ul>
+            <div class="subheading mb-1 mt-3 text-bl span-letter">MY ROLE</div>
+            <ul class="fa-ul mb-0" >
+              <li>
+                <span class="fa-li"><i class="fas fa-check text-custom"></i></span>
+                HTML5, CSS3, Bootstrap을 이용한 <b class="emphasis-txt">UI/UX 구현</b>
+              </li>
+              <li>
+                <span class="fa-li"><i class="fas fa-check text-custom"></i></span>
+                JavaScript, Jquery를 이용한 <b class="emphasis-txt">Ajax 통신 및 웹 페이지 동적 기능 구현 </b>
+              </li>
+              <li>
+                <span class="fa-li"><i class="fas fa-check text-custom"></i></span>
+                백엔드 개발자와의 <b class="emphasis-txt">협업</b>
+              </li>
+              <li>
+                <span class="fa-li"><i class="fas fa-check text-custom"></i></span>
+                Git, GitLab을 이용한 <b class="emphasis-txt">협업 및 개발 브랜치 관리</b>
+              </li>
+            </ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
     <!-- Bootstrap core JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

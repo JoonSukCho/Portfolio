@@ -85,7 +85,9 @@ function typing() {
       typingTxt[typingIdx] === "석"
     ) {
       typingTxt[typingIdx] =
-        "<span class='text-custom'>" + typingTxt[typingIdx] + "</span>";
+        "<span class='text-custom' style='font-size: 2.5rem'>" +
+        typingTxt[typingIdx] +
+        "</span>";
     }
     $(".typing").append(typingTxt[typingIdx]);
     typingIdx++;
