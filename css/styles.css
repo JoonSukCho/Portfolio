@@ -183,8 +183,8 @@ a {
   background-color: transparent;
 }
 a:hover {
-  color: #824027;
-  text-decoration: underline;
+  /* color: #824027;
+  text-decoration: underline; */
 }
 
 a:not([href]) {
@@ -10466,7 +10466,7 @@ p.lead {
   /* text-transform: uppercase; */
 }
 #sideNav .navbar-toggler:focus {
-  outline-color: #d48a6e;
+  /* outline-color: #d48a6e; */
 }
 
 @media (min-width: 992px) {
@@ -10479,7 +10479,8 @@ p.lead {
     flex-direction: column;
     width: 17rem;
     height: 100vh;
-    /* background-image: url("../assets/img/backgrounds.jpeg"); */
+    background-color: #fff;
+    /* background-image: url("../assets/img/bg_1.jpg"); */
     /* background-size: 100%;
     opacity: 0.5 !important; */
   }
@@ -10513,12 +10514,12 @@ p.lead {
 
   /* 추가 */
   #sideNav:after {
-    background-image: url("../assets/img/backgrounds.jpeg");
+    background-image: url("../assets/img/bg_1.jpg");
     top: 0;
     left: 0;
     position: absolute;
     background-size: cover;
-    opacity: 0.2 !important;
+    /* opacity: 0.2 !important; */
     filter: alpha(opacity=20);
     z-index: -1;
     content: "";
@@ -10527,7 +10528,7 @@ p.lead {
 
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: #17a1e1;
+    /* background-color: #17a1e1; */
   }
 }
 .social-icons .social-icon {
@@ -10624,16 +10625,22 @@ section.resume-section .resume-section-content {
   color: #495057;
 }
 
+.search_icon:hover {
+  background-color: #fff;
+  color: #0087ca;
+}
+
 .text-bl {
   color: #343a40 !important;
 }
 
 .bg-custom {
-  background-color: #17a1e1 !important;
+  /* background-color: #17a1e1 !important; */
+  background-color: #0087ca !important;
 }
 
 .text-custom {
-  color: #17a1e1 !important;
+  color: #0087ca !important;
   opacity: 0.8;
 }
 
@@ -10671,10 +10678,12 @@ section.resume-section .resume-section-content {
   color: #343a40 !important;
 }
 
+/* hover underline-animation */
 .hover-underline-animation {
   display: inline-block;
   position: relative;
   cursor: pointer;
+  color: #0087ca;
 }
 .hover-underline-animation::after {
   content: "";
@@ -10684,7 +10693,8 @@ section.resume-section .resume-section-content {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #0087ca;
+  /* background-color: #0087ca; */
+  background-color: #0087e6;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -10695,5 +10705,6 @@ section.resume-section .resume-section-content {
 
 .hover-underline-animation:hover {
   transition: transform 1s ease-out;
-  color: #0087ca;
+  /* color: #0087ca; */
+  color: #0087e6;
 }

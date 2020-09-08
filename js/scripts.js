@@ -61,6 +61,11 @@
     e.preventDefault();
     $("#project_modal_2").modal("show");
   });
+
+  $("#project_3").on("click", function (e) {
+    e.preventDefault();
+    $("#project_modal_3").modal("show");
+  });
 })(jQuery); // End of use strict
 
 /* typing script */
@@ -72,9 +77,10 @@ typingTxt = typingTxt.split("");
 
 if (typingBool == false) {
   typingBool = true;
-  var tyInt = setTimeout(function () {
-    setInterval(typing, 200);
-  }, 3600);
+  // var tyInt = setTimeout(function () {
+  //   setInterval(typing, 200);
+  // }, 3000);
+  var tyInt = setInterval(typing, 150);
 }
 
 function typing() {
