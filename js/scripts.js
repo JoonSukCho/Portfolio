@@ -73,7 +73,11 @@ $(document).ready(function () {
   });
 });
 
-var words = ["개발을 좋아하는", "개발을 하는", "저는 개발을 좋아합니다"],
+var words = [
+    "개발을 즐거워하는",
+    "꾸준히 계발 하는",
+    "기본기를 중요하게 생각하는",
+  ],
   part,
   i = 0,
   offset = 0,
@@ -81,7 +85,7 @@ var words = ["개발을 좋아하는", "개발을 하는", "저는 개발을 좋
   forwards = true,
   skip_count = 0,
   skip_delay = 15,
-  speed = 100;
+  speed = 130;
 
 var wordflick = function () {
   setInterval(function () {
