@@ -73,11 +73,7 @@ $(document).ready(function () {
   });
 });
 
-var words = [
-    "개발을 즐거워하는",
-    "꾸준히 계발 하는",
-    "기본기를 중요하게 생각하는",
-  ],
+var words = ["개발을 즐거워하는", "꾸준히 계발 하는"],
   part,
   i = 0,
   offset = 0,
