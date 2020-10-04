@@ -43,16 +43,13 @@
   $('[data-toggle="tooltip"').tooltip();
 
   // skills_help
-  $("#skills_help")
-    .tooltip({
-      title: "조금 사용해봤으며, 흥미가 있고 지속적으로 개발할 기술",
-      placement: "right",
-    })
-    .on("click", function (e) {
-      e.preventDefault();
-    });
+  $("#skills_help").tooltip({
+    title: "흥미가 있고 지속적으로 개발할 기술",
+    placement: "right",
+  });
 })(jQuery); // End of use strict
 
+// document ready
 $(document).ready(function () {
   wordflick();
 
@@ -71,9 +68,14 @@ $(document).ready(function () {
     e.preventDefault();
     $("#project_modal_3").modal("show");
   });
+
+  // mobile click 방지
+  $("#mobile_icon").on("click", function (e) {
+    e.preventDefault();
+  });
 });
 
-var words = ["개발을 즐거워하는", "꾸준히 계발 하는"],
+var words = ["꾸준히 계발 하는", "배움에 두려움 없는", "소통을 좋아하는"],
   part,
   i = 0,
   offset = 0,
@@ -81,7 +83,7 @@ var words = ["개발을 즐거워하는", "꾸준히 계발 하는"],
   forwards = true,
   skip_count = 0,
   skip_delay = 15,
-  speed = 130;
+  speed = 150;
 
 var wordflick = function () {
   setInterval(function () {
@@ -116,6 +118,7 @@ var wordflick = function () {
 };
 
 /* typing script */
+/*
 var typingBool = false;
 var typingIdx = 0;
 var typingTxt = $(".typing-txt").text();
@@ -148,3 +151,4 @@ function typing() {
     clearInterval(tyInt);
   }
 }
+*/
